@@ -19,10 +19,10 @@ import cadasta.main.profilehelpers.ProfileConstants;
 import cadasta.main.profilehelpers.ProfileUtils;
 
 public class ProfileUpdateTests {
-	private WebDriver driver;
-	  private String baseUrl;
-	  private StringBuffer verificationErrors = new StringBuffer();
-	  
+		private WebDriver driver;
+		private String baseUrl;
+		private StringBuffer verificationErrors = new StringBuffer();
+		  
 	  @BeforeClass(alwaysRun = true)
 	  public void setUp() throws Exception {
 	    driver = new FirefoxDriver();
