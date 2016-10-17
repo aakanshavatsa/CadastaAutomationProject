@@ -24,6 +24,26 @@ public class ProfileUtils {
 	    driver.findElement(By.linkText(ProfileConstants.EDITPROFILE_LINKTEXT)).click();
 	}
 	
+	public static void updateUsername(WebDriver driver, String newUsername){
+		  driver.findElement(By.id(ProfileConstants.UPDATEUSERNAME_ID)).clear();
+		  driver.findElement(By.id(ProfileConstants.UPDATEUSERNAME_ID)).sendKeys(newUsername);
+		  driver.findElement(By.name(ProfileConstants.UPDATEPROFILE_BUTTON_NAME)).click();
+	}
+	
+	public static void updateEmail(WebDriver driver, String newEmail){
+		  driver.findElement(By.id(ProfileConstants.UPDATEMAIL_ID)).clear();
+		  driver.findElement(By.id(ProfileConstants.UPDATEMAIL_ID)).sendKeys(newEmail);
+		  driver.findElement(By.name(ProfileConstants.UPDATEPROFILE_BUTTON_NAME)).click();
+	}
+	
+	public static void updateFullName(WebDriver driver, String newFullName){
+		  driver.findElement(By.id(ProfileConstants.UPDATEFULLNAME_ID)).clear();
+		  driver.findElement(By.id(ProfileConstants.UPDATEFULLNAME_ID)).sendKeys(newFullName);
+		  driver.findElement(By.name(ProfileConstants.UPDATEPROFILE_BUTTON_NAME)).click();
+	}
+	
+	
+	
 	public static void updatePassword(WebDriver driver, String oldPassword, String newPassword, String confirmNewPassword){
 		if(!confirmNewPassword.isEmpty() && !oldPassword.isEmpty()){
 			driver.findElement(By.linkText(ProfileConstants.CHANGEPASSWORD_LINKTEXT)).click();
