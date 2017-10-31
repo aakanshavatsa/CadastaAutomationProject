@@ -4,7 +4,7 @@
   <artifactId>CadastaAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>CadastaAutomation</name>
-  <description>Selenium tests for Cadasta UI automation</description>
+  <description>Selenium tests for Cadasta UI automationas part of Outreachy</description>
   
   <properties>
     <appium.version>3.4.1</appium.version>
