@@ -3,7 +3,7 @@ package cadasta.main.profilehelpers;
  * 
  * @author Aakansha Vatsa
  *
- *Contains all the CONFIGURATION specific constants
+ *Contains all the CONFIGURATION specific constants required for the UI automation
  */
 public class ConfigurationConstants {
 
