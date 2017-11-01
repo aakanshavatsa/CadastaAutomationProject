@@ -19,7 +19,7 @@ import cadasta.main.profilehelpers.ProfileConstants;
 import cadasta.main.profilehelpers.ProfileUtils;
 
 
-// Profile UI test case class
+// Profile UI test case class test
 public class ProfileUpdateTests {
 		private WebDriver driver;
 		private String baseUrl;
