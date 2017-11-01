@@ -2,6 +2,8 @@ package cadasta.main.profilehelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+
+// Util code for project.
 public class ProfileUtils {
 	
 	public static void logIn(WebDriver driver, String username, String password){
